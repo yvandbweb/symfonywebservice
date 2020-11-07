@@ -1,0 +1,9 @@
+get_graphs:
+    path:       serv/{id}
+    controller: App\Controller\WebserviceController::retrieveParamsAndData
+    methods:    GET
+
+get_graphs_root:
+    path:       /
+    controller: App\Controller\WebserviceController::root
+    methods:    GET
